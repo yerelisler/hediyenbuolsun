@@ -1,0 +1,68 @@
+
+#mcontent{width:700px;margin:0 auto;font:13px sans,helvetica;}
+#logo{background:url('../imgs/common/bg.png') repeat-x}
+#logo div{width:1100px;margin-left:30px;height:116px;background:url('../imgs/common/logo.png') no-repeat}
+h1{margin-top:30px;font:18px sans,helvetica,arial;}
+h1 a{
+	margin-left:20px;
+	font:13px helvetica,arial;
+	color:#034596;
+}
+
+
+.tNav{
+	margin:10px 0;
+}
+
+.tNav a{
+	color:#4192C4;
+	font:bold 14px sans,helvetica,arial;
+	text-decoration:none;
+}
+.tNav span{
+	color:#aaa;
+}
+
+
+.ful{
+	width:634px;
+	border:4px solid #ccd;
+	list-style-type:none;
+}
+.fli{
+	overflow:hidden;
+	width:100%;
+	border-bottom:1px solid #ddd;
+	background-color:#E1E8E7;
+}
+.fli label{
+	
+	width:97px;
+	float:left;
+	font:13px helvetica;
+	text-align:right;
+}
+.fli label,.fli .tfield{
+	padding:6px 3px;
+}
+.fli .tfield{
+	background-color:#eaeaea;
+	width:525px;
+	float:left;
+}
+input.tbox{padding:2px;border:1px solid #a0a0a0;}
+input.tbox:focus{outline:0;border-color:#f4a050}
+
+p.success,p.error{
+	padding:10px 0 10px 20px;
+	color:#116833;
+	font:bold 12px sans,helvetica;
+	background:url('../imgs/common/flagGreen.png') no-repeat left center;
+}
+p.error{
+	color:#883100;
+	background:url('../imgs/common/flagRed.png') no-repeat left center;
+}
+h1{
+	border-bottom:4px solid #EBEAE1;
+}
